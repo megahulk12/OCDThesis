@@ -1,0 +1,68 @@
+@relation dataset_Updated
+
+@attribute Age numeric
+@attribute 'Marital Status' {Single,Married}
+@attribute 'OCD History' {No,Yes}
+@attribute Q2 numeric
+@attribute Q5 numeric
+@attribute Q10 numeric
+@attribute Q12 numeric
+@attribute Q13 numeric
+@attribute Q15 numeric
+@attribute Q17 numeric
+@attribute Class {'NO OCD',OCD}
+
+@data
+18,Single,No,2,0,0,1,2,1,1,'NO OCD'
+18,Single,No,1,2,3,1,4,1,0,OCD
+18,Single,No,4,0,0,2,4,0,0,OCD
+18,Single,No,2,2,0,2,4,2,3,OCD
+19,Single,No,1,0,1,1,0,0,0,'NO OCD'
+19,Single,No,1,0,0,1,2,0,0,'NO OCD'
+19,Single,Yes,2,1,0,1,2,1,0,OCD
+19,Single,Yes,3,1,0,1,2,0,0,OCD
+19,Single,No,3,1,1,2,2,2,2,OCD
+19,Single,No,2,2,3,4,3,0,1,OCD
+19,Single,Yes,4,0,2,3,3,1,0,OCD
+19,Single,No,4,0,2,3,3,4,0,OCD
+19,Single,No,2,1,3,4,3,2,1,OCD
+19,Single,No,3,1,1,4,3,2,2,OCD
+19,Single,Yes,4,1,1,3,2,2,0,OCD
+20,Single,Yes,1,0,0,0,2,0,0,'NO OCD'
+20,Single,No,3,0,1,0,2,0,0,'NO OCD'
+20,Single,No,3,0,0,2,1,1,2,'NO OCD'
+20,Single,No,2,1,2,1,3,0,1,OCD
+20,Single,No,2,0,1,0,3,2,1,OCD
+20,Single,No,2,0,1,2,3,1,1,OCD
+20,Single,No,2,1,1,2,3,2,1,OCD
+20,Single,Yes,2,0,3,1,4,2,0,OCD
+20,Single,No,2,0,2,3,4,3,2,OCD
+20,Single,No,3,1,3,4,3,3,2,OCD
+20,Single,No,4,2,3,2,3,3,4,OCD
+21,Single,No,1,1,1,1,1,1,2,OCD
+22,Single,No,1,0,0,3,4,1,1,OCD
+22,Single,Yes,4,0,0,1,4,4,1,OCD
+22,Single,No,1,0,2,2,3,2,0,OCD
+23,Single,No,2,0,0,0,3,3,0,'NO OCD'
+24,Single,Yes,2,2,3,2,4,3,2,OCD
+24,Single,Yes,3,3,4,1,4,4,4,OCD
+25,Single,No,2,2,1,3,3,2,2,OCD
+23,Single,No,4,0,0,2,4,0,0,OCD
+25,Single,No,3,1,3,3,3,4,4,OCD
+27,Single,No,1,0,3,1,3,1,2,OCD
+28,Single,No,1,1,0,4,3,1,1,OCD
+28,Married,Yes,2,1,2,4,2,3,4,OCD
+29,Single,Yes,2,0,0,1,2,1,1,'NO OCD'
+29,Single,No,3,0,0,1,2,0,0,'NO OCD'
+30,Married,No,2,0,0,0,2,1,1,'NO OCD'
+30,Single,No,3,2,1,4,3,1,1,OCD
+32,Single,No,1,0,0,0,1,0,0,'NO OCD'
+32,Married,No,1,3,0,1,2,1,4,OCD
+34,Single,No,0,0,0,3,4,3,0,OCD
+34,Single,Yes,1,0,3,1,4,2,1,OCD
+29,Single,Yes,4,0,0,2,4,0,0,OCD
+37,Married,No,2,0,2,2,2,2,2,OCD
+38,Married,No,2,0,3,0,3,1,2,OCD
+40,Single,Yes,3,2,1,4,3,3,3,OCD
+40,Single,Yes,2,0,2,3,3,2,1,OCD
+54,Married,Yes,2,0,1,2,1,1,0,OCD
